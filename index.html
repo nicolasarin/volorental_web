@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VOLO Rental — Audiovisual Profesional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" as="image" href="imgs/main.jpg" />
+  <style>
+    html.is-loading { background: #000; }
+    html.is-loading body { overflow: hidden; }
+    html.is-loading body > *:not(.page-loader) { opacity: 0; }
+  </style>
+  <script>document.documentElement.classList.add("is-loading");</script>
+</head>
+<body data-page="inicio">
+  <div class="page-loader" role="status" aria-live="polite" aria-label="Cargando">
+    <div class="page-loader__inner">
+      <span class="page-loader__volo">VOLO</span>
+      <span class="page-loader__rental">RENTAL</span>
+      <span class="page-loader__bar" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div data-layout="header"></div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero reveal-group" id="inicio">
+      <div class="hero__bg" role="img" aria-label="Escenario de concierto con iluminación profesional"></div>
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <div class="hero__text">
+          <p class="eyebrow reveal-item">ILUMINACIÓN PROFESIONAL</p>
+          <h1 class="hero__title reveal-item">LA LUZ QUE<br />HACE EL<br /> SHOW.</h1>
+          <p class="hero__subtitle reveal-item">
+            Alquiler de equipos de iluminación y soluciones técnicas para eventos de cualquier escala.
+          </p>
+          <div class="hero__actions reveal-item">
+            <a href="#equipos" class="btn btn--orange">
+              VER EQUIPOS
+              <svg class="icon-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="servicios.html" class="btn btn--ghost">NUESTROS SERVICIOS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container stage">
+      <!-- FEATURES BAR -->
+      <section class="features reveal-group" aria-label="Ventajas">
+        <div class="features__grid">
+          <article class="feature reveal-item">
+            <div class="feature__icon" aria-hidden="true">01</div>
+            <div class="feature__body">
+              <h3 class="feature__title">EXPERIENCIA</h3>
+              <p class="feature__text">Más de 10 años acompañando grandes producciones.</p>
+            </div>
+          </article>
+
+          <article class="feature reveal-item">
+            <div class="feature__icon" aria-hidden="true">02</div>
+            <div class="feature__body">
+              <h3 class="feature__title">EQUIPAMIENTO</h3>
+              <p class="feature__text">Tecnología de primeras marcas para cada proyecto.</p>
+            </div>
+          </article>
+
+          <article class="feature reveal-item">
+            <div class="feature__icon" aria-hidden="true">03</div>
+            <div class="feature__body">
+              <h3 class="feature__title">EQUIPO TÉCNICO</h3>
+              <p class="feature__text">Planificación, montaje.</p>
+            </div>
+          </article>
+
+          <article class="feature reveal-item">
+            <div class="feature__icon" aria-hidden="true">04</div>
+            <div class="feature__body">
+              <h3 class="feature__title">RESPALDO</h3>
+              <p class="feature__text">Respuesta y soporte durante todo el evento.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!-- PROJECTS -->
+    <section class="projects reveal-group" id="proyectos">
+      <div class="container">
+        <div class="projects__header reveal-item">
+          <div class="projects__heading">
+            <p class="eyebrow">PROYECTOS DESTACADOS</p>
+            <h2 class="projects__title">EVENTOS QUE SE VEN<br />Y SE RECUERDAN.</h2>
+          </div>
+          <p class="projects__lead">
+            Una selección de shows donde la iluminación fue parte central de la experiencia.
+          </p>
+        </div>
+
+        <div class="projects__grid">
+          <article class="project-card reveal-item">
+            <div class="project-card__media" role="img" aria-label="Air Supply — Antel Arena">
+              <img src="./imgs/proyectos/1.jpg">
+            </div>
+            <div class="project-card__overlay">
+              <span class="project-card__cat">CONCIERTOS</span>
+              <h3 class="project-card__name">Air Supply — Antel Arena</h3>
+              <p class="project-card__desc">Diseño y operación de iluminación.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal-item">
+            <div class="project-card__media" role="img" aria-label="Ricky Martin — Antel Arena">
+              <img src="./imgs/proyectos/2.jpg">
+            </div>
+            <div class="project-card__overlay">
+              <span class="project-card__cat">SHOWS</span>
+              <h3 class="project-card__name">Ricky Martin — Antel Arena</h3>
+              <p class="project-card__desc">Iluminación, programación y puesta en escena.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal-item">
+            <div class="project-card__media" role="img" aria-label="Sebastián Yatra — Uruguay">
+              <img src="./imgs/proyectos/3.jpg">
+            </div>
+            <div class="project-card__overlay">
+              <span class="project-card__cat">PRODUCCIÓN</span>
+              <h3 class="project-card__name">Sebastián Yatra — Uruguay</h3>
+              <p class="project-card__desc">Equipo técnico en cada instancia del show.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEHIND THE SHOW -->
+    <section class="behind reveal-group" id="proceso" aria-label="Detrás de cada show">
+      <div class="container">
+        <div class="behind__box">
+          <div class="behind__grid">
+        <div class="behind__copy reveal-item">
+          <p class="eyebrow">DETRÁS DE CADA SHOW</p>
+          <h2 class="behind__title">DEL MONTAJE<br />AL ÚLTIMO<br />CUE.</h2>
+          <p class="behind__text">
+            Diseñamos y ejecutamos cada puesta con un equipo especializado, equipamiento profesional y seguimiento técnico en cada etapa.
+          </p>
+          <ol class="behind__steps">
+            <li>
+              <span class="behind__num">01</span>
+              <span class="behind__step">PLANIFICACIÓN</span>
+            </li>
+            <li>
+              <span class="behind__num">02</span>
+              <span class="behind__step">MONTAJE Y PRUEBAS</span>
+            </li>
+            <li>
+              <span class="behind__num">03</span>
+              <span class="behind__step">OPERACIÓN EN VIVO</span>
+            </li>
+          </ol>
+        </div>
+
+        <figure class="behind-photo behind-photo--main reveal-item">
+          <div class="behind-photo__media" role="img" aria-label="El equipo en acción">
+            <img src="./imgs/proceso/1.jpg">
+          </div>
+          <figcaption>FOTO PRINCIPAL · EL EQUIPO EN ACCIÓN</figcaption>
+        </figure>
+
+        <div class="behind__stack reveal-item">
+          <figure class="behind-photo">
+            <div class="behind-photo__media" role="img" aria-label="Detalle de equipamiento">
+              <img src="./imgs/proceso/2.jpg">
+            </div>
+            <figcaption>DETALLE · EQUIPAMIENTO</figcaption>
+          </figure>
+          <figure class="behind-photo">
+            <div class="behind-photo__media" role="img" aria-label="Proceso de montaje">
+              <img src="./imgs/proceso/3.jpg">
+            </div>
+            <figcaption>PROCESO · MONTAJE</figcaption>
+          </figure>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCALE BANNER -->
+    <section class="scale reveal-group" aria-label="Iluminación a escala">
+      <div class="scale__bg" role="img" aria-label="Puesta de iluminación a escala">
+        <img src="./imgs/extra.jpg">
+      </div>
+      <div class="scale__overlay"></div>
+      <div class="container scale__content reveal-item">
+        <p class="eyebrow">ILUMINACIÓN A ESCALA</p>
+        <h2 class="scale__title">UNA PUESTA PENSADA<br />PARA CADA ESCENARIO.</h2>
+      </div>
+    </section>
+
+    <!-- NEXT PROJECT CTA -->
+    <section class="next reveal-group" id="contacto">
+      <div class="container">
+        <div class="next__row reveal-item">
+          <div class="next__heading">
+            <p class="eyebrow">PRÓXIMO PROYECTO</p>
+            <h2 class="next__title">HAGÁMOSLO REALIDAD.</h2>
+          </div>
+          <a href="#contacto" class="btn btn--orange next__btn">
+            CONTANOS SOBRE TU EVENTO
+            <svg class="icon-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div data-layout="footer"></div>
+  <script src="layout.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

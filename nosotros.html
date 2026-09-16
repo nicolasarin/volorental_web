@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre nosotros — VOLO Rental</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    html.is-loading { background: #000; }
+    html.is-loading body { overflow: hidden; }
+    html.is-loading body > *:not(.page-loader) { opacity: 0; }
+  </style>
+  <script>document.documentElement.classList.add("is-loading");</script>
+</head>
+<body data-page="nosotros" class="page-about">
+  <div class="page-loader" role="status" aria-live="polite" aria-label="Cargando">
+    <div class="page-loader__inner">
+      <span class="page-loader__volo">VOLO</span>
+      <span class="page-loader__rental">RENTAL</span>
+      <span class="page-loader__bar" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div data-layout="header"></div>
+
+  <main>
+    <section class="about-hero" id="nosotros">
+      <div class="about-hero__bg" role="img" aria-label="Técnico de VOLO Rental en un escenario"></div>
+      <div class="about-hero__overlay"></div>
+      <div class="container about-hero__content">
+        <p class="eyebrow">SOBRE NOSOTROS</p>
+        <h1 class="about-hero__title">
+          Pasión por lo que hacemos.<br />
+          Compromiso con cada detalle.
+        </h1>
+        <p class="about-hero__lead">
+          Somos un equipo de profesionales con más de 10 años de experiencia en la
+          producción técnica de eventos. Trabajamos con dedicación para que cada
+          proyecto sea único e inolvidable.
+        </p>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Cifras">
+      <div class="container">
+        <div class="stats__grid">
+          <article class="stat">
+            <p class="stat__value">10+</p>
+            <p class="stat__label">AÑOS DE EXPERIENCIA</p>
+          </article>
+          <article class="stat">
+            <p class="stat__value">500+</p>
+            <p class="stat__label">EVENTOS REALIZADOS</p>
+          </article>
+          <article class="stat">
+            <p class="stat__value">100+</p>
+            <p class="stat__label">CLIENTES SATISFECHOS</p>
+          </article>
+          <article class="stat">
+            <p class="stat__value">TODO</p>
+            <p class="stat__label">URUGUAY Y REGIÓN</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="values" aria-label="Nuestros valores">
+      <div class="container">
+        <p class="eyebrow values__eyebrow">NUESTROS VALORES</p>
+        <div class="values__box">
+          <article class="value">
+            <h2 class="value__title">COMPROMISO</h2>
+            <p class="value__text">Nos involucramos al 100% en cada proyecto.</p>
+          </article>
+          <article class="value">
+            <h2 class="value__title">CALIDAD</h2>
+            <p class="value__text">Buscamos la excelencia en equipos y procesos.</p>
+          </article>
+          <article class="value">
+            <h2 class="value__title">INNOVACIÓN</h2>
+            <p class="value__text">Incorporamos tecnología para ofrecer siempre lo mejor.</p>
+          </article>
+          <article class="value">
+            <h2 class="value__title">TRABAJO EN EQUIPO</h2>
+            <p class="value__text">Creemos en el talento y la colaboración.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-layout="footer"></div>
+  <script src="layout.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

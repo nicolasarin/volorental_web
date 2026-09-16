@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicios — VOLO Rental</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    html.is-loading { background: #000; }
+    html.is-loading body { overflow: hidden; }
+    html.is-loading body > *:not(.page-loader) { opacity: 0; }
+  </style>
+  <script>document.documentElement.classList.add("is-loading");</script>
+</head>
+<body data-page="servicios" class="page-services">
+  <div class="page-loader" role="status" aria-live="polite" aria-label="Cargando">
+    <div class="page-loader__inner">
+      <span class="page-loader__volo">VOLO</span>
+      <span class="page-loader__rental">RENTAL</span>
+      <span class="page-loader__bar" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div data-layout="header"></div>
+
+  <main>
+    <section class="services-hero" id="servicios">
+      <div class="services-hero__bg" role="img" aria-label="Concierto con iluminación profesional"></div>
+      <div class="services-hero__overlay"></div>
+      <div class="container services-hero__content">
+        <p class="eyebrow">NUESTRO PROCESO</p>
+        <h1 class="services-hero__title">
+          Así trabajamos<br />
+          en cada proyecto.
+        </h1>
+      </div>
+    </section>
+
+    <section class="process" aria-label="Nuestro proceso">
+      <div class="container">
+        <ol class="process__track">
+          <li class="process-step">
+            <div class="process-step__marker"><span>01</span></div>
+            <h2 class="process-step__title">ESCUCHAMOS</h2>
+            <p class="process-step__text">Tu idea, objetivos y necesidades del evento.</p>
+          </li>
+          <li class="process-step">
+            <div class="process-step__marker"><span>02</span></div>
+            <h2 class="process-step__title">DISEÑAMOS</h2>
+            <p class="process-step__text">Propuesta técnica y creativa a medida.</p>
+          </li>
+          <li class="process-step">
+            <div class="process-step__marker"><span>03</span></div>
+            <h2 class="process-step__title">PLANIFICAMOS</h2>
+            <p class="process-step__text">Coordinación, logística y puesta a punto.</p>
+          </li>
+          <li class="process-step">
+            <div class="process-step__marker"><span>04</span></div>
+            <h2 class="process-step__title">EJECUTAMOS</h2>
+            <p class="process-step__text">Operación técnica profesional en vivo.</p>
+          </li>
+          <li class="process-step">
+            <div class="process-step__marker"><span>05</span></div>
+            <h2 class="process-step__title">ACOMPAÑAMOS</h2>
+            <p class="process-step__text">Soporte antes, durante y después del evento.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="services-cta" aria-label="Contacto">
+      <div class="container">
+        <div class="services-cta__box">
+          <div class="services-cta__bg" role="img" aria-label="Cases de equipamiento VOLO Rental"></div>
+          <div class="services-cta__overlay"></div>
+          <div class="services-cta__content">
+            <h2 class="services-cta__title">
+              ¿Listo para llevar tu evento al siguiente nivel?<br />
+              Estamos para hacerlo posible.
+            </h2>
+            <a href="index.html#contacto" class="btn btn--outline-orange services-cta__btn">
+              ENVIAR MENSAJE
+              <svg class="icon-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-layout="footer"></div>
+  <script src="layout.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
