@@ -1,0 +1,158 @@
+{
+  "featuredCategory": "iluminacion",
+  "featuredLimit": 4,
+  "categories": [
+    { "id": "iluminacion", "label": "Iluminación", "icon": "pin" },
+    { "id": "audio", "label": "Audio", "icon": "audio" },
+    { "id": "video", "label": "Video", "icon": "video" },
+    { "id": "estructuras", "label": "Estructuras", "icon": "layers" },
+    { "id": "control", "label": "Control", "icon": "sliders" },
+    { "id": "accesorios", "label": "Accesorios", "icon": "puzzle" }
+  ],
+  "products": [
+    {
+      "id": "robe-iforte-ltx",
+      "name": "Robe iForte LTX",
+      "category": "iluminacion",
+      "type": "Spot",
+      "stock": 7,
+      "image": "imgs/equipos/robe-iforte-ltx.png",
+      "featured": true
+    },
+    {
+      "id": "ayrton-rivale-profile",
+      "name": "Ayrton Rivale Profile",
+      "category": "iluminacion",
+      "type": "Profile",
+      "stock": 64,
+      "image": "imgs/equipos/ayrton-rivale-profile.png",
+      "featured": true
+    },
+    {
+      "id": "claypaky-sharpy-plus",
+      "name": "Clay Paky Sharpy Plus",
+      "category": "iluminacion",
+      "type": "Beam",
+      "stock": 24,
+      "image": "imgs/equipos/claypaky-sharpy-plus.png",
+      "featured": true
+    },
+    {
+      "id": "chauvet-color-strike-m",
+      "name": "Chauvet Color Strike M",
+      "category": "iluminacion",
+      "type": "Wash",
+      "stock": 44,
+      "image": "imgs/equipos/chauvet-color-strike-m.png",
+      "featured": true
+    },
+    {
+      "id": "ayrton-kyalami",
+      "name": "Ayrton Kyalami",
+      "category": "iluminacion",
+      "type": "Beam",
+      "stock": 18,
+      "image": "imgs/equipos/claypaky-sharpy-plus.png",
+      "featured": false
+    },
+    {
+      "id": "martin-mac-ultra",
+      "name": "Martin MAC Ultra Performance",
+      "category": "iluminacion",
+      "type": "Profile",
+      "stock": 12,
+      "image": "imgs/equipos/ayrton-rivale-profile.png",
+      "featured": false
+    },
+    {
+      "id": "db-y8",
+      "name": "d&b Y8",
+      "category": "audio",
+      "type": "Line array",
+      "stock": 16,
+      "image": "imgs/equipos/audio-array.png",
+      "featured": true
+    },
+    {
+      "id": "l-acoustics-k2",
+      "name": "L-Acoustics K2",
+      "category": "audio",
+      "type": "Line array",
+      "stock": 8,
+      "image": "imgs/equipos/audio-array.png",
+      "featured": true
+    },
+    {
+      "id": "absen-polaris",
+      "name": "Absen Polaris 2.5",
+      "category": "video",
+      "type": "LED wall",
+      "stock": 120,
+      "image": "imgs/equipos/led-panel.png",
+      "featured": true
+    },
+    {
+      "id": "novastar-vx1000",
+      "name": "NovaStar VX1000",
+      "category": "video",
+      "type": "Procesador",
+      "stock": 6,
+      "image": "imgs/equipos/led-panel.png",
+      "featured": true
+    },
+    {
+      "id": "prolyte-h30v",
+      "name": "Prolyte H30V",
+      "category": "estructuras",
+      "type": "Truss",
+      "stock": 40,
+      "image": "imgs/equipos/truss.png",
+      "featured": true
+    },
+    {
+      "id": "global-truss-f34",
+      "name": "Global Truss F34",
+      "category": "estructuras",
+      "type": "Truss",
+      "stock": 28,
+      "image": "imgs/equipos/truss.png",
+      "featured": true
+    },
+    {
+      "id": "grandma3-light",
+      "name": "grandMA3 Light",
+      "category": "control",
+      "type": "Consola",
+      "stock": 3,
+      "image": "imgs/equipos/console.png",
+      "featured": true
+    },
+    {
+      "id": "grandma3-compact",
+      "name": "grandMA3 Compact XT",
+      "category": "control",
+      "type": "Consola",
+      "stock": 4,
+      "image": "imgs/equipos/console.png",
+      "featured": true
+    },
+    {
+      "id": "proplex-dmx",
+      "name": "ProPlex DMX 5 pines",
+      "category": "accesorios",
+      "type": "Cableado",
+      "stock": 80,
+      "image": "imgs/equipos/cable.png",
+      "featured": true
+    },
+    {
+      "id": "luminex-gigacore",
+      "name": "Luminex GigaCore 16",
+      "category": "accesorios",
+      "type": "Red",
+      "stock": 6,
+      "image": "imgs/equipos/cable.png",
+      "featured": true
+    }
+  ]
+}

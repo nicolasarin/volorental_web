@@ -14,13 +14,13 @@
       </a>
 
       <nav class="nav" aria-label="Principal">
-        <a href="index.html" class="${navClass("inicio")}">INICIO</a>
-        <a href="servicios.html" class="${navClass("servicios")}">SERVICIOS</a>
-        <a href="index.html#proyectos" class="${navClass("proyectos")}">PROYECTOS</a>
-        <a href="nosotros.html" class="${navClass("nosotros")}">NOSOTROS</a>
+        <a href="index.html#inicio" class="${navClass("inicio")}" data-nav="inicio">INICIO</a>
+        <a href="index.html#servicios" class="${navClass("servicios")}" data-nav="servicios">SERVICIOS</a>
+        <a href="index.html#proyectos" class="${navClass("proyectos")}" data-nav="proyectos">PROYECTOS</a>
+        <a href="index.html#nosotros" class="${navClass("nosotros")}" data-nav="nosotros">NOSOTROS</a>
       </nav>
 
-      <a href="index.html#contacto" class="btn btn--outline-orange header__cta">
+      <a href="equipos.html" class="btn btn--outline-orange header__cta">
         COTIZAR AHORA
         <svg class="icon-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
           <path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
